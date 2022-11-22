@@ -1,0 +1,40 @@
+#ifndef XTERM_COLORS
+#define XTERM_COLORS
+
+#define FG #7067CF
+#define BG #211E1C
+! Same as BG: Matte black 
+#define COLOR_0		#211E1C
+! Light yellow
+#define COLOR_1		#FCF300
+! Matte red
+#define COLOR_2		#A41623
+! Saturated orange
+#define COLOR_3		#F85E00
+! Dust beige
+#define COLOR_4		#EAE0CC
+! Dark maroon
+#define COLOR_5		#37000A
+! Matte cyan
+#define COLOR_6		#735CDD
+! Red orange
+#define COLOR_7		#FF1B1C
+! Matte-ish Indigo
+#define COLOR_8		#470063
+! Light fuchsia
+#define COLOR_9		#F62DAE
+! Greyish navy-blue
+#define COLOR_10	#3A405A
+! Matte salmon
+#define COLOR_11	#E9AFA3
+! Sky blue
+#define COLOR_12	#23B5D3
+! Pewter blue
+#define COLOR_13	#75ABBC
+! Off-white
+#define COLOR_14	#DFE0E2
+! Fuchsia
+#define COLOR_15	#E63462
+
+
+#endif

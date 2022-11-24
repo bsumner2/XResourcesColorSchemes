@@ -1,34 +1,90 @@
-*customization:	-color
-Xft.dpi:	96
-Xft.antialias:	1
-Xft.hinting:	1
-Xft.hintstyle:	hintslight
-Xft.rgba:	rgb
-Xcursor.size:	24
-Xcursor.theme:	Yaru
+! special
+! *.foreground:   #d1d1d1
+*.foreground: FG
 
-#include "/acct/bsumner/.xcolors/xtermcolors"
+! *.background:   #221e2d
+! *.cursorColor:  #d1d1d1
+! *customization: -color
 
-xterm*font:		*-fixed-*-*-*-14-*
 
-xterm*termName:		xterm-color
-xterm*foreground:	FG
-xterm*background:	BG
+#include "/home/burton/.xcolors/darkmatter"
 
-xterm*color0:		COLOR_0
-xterm*color1:		COLOR_1
-xterm*color2:		COLOR_2
-xterm*color3:		COLOR_3
-xterm*color4:		COLOR_4
-xterm*color5:		COLOR_5
-xterm*color6:		COLOR_6
-xterm*color7:		COLOR_7
-xterm*color8:		COLOR_8
-xterm*color9:		COLOR_9
-xterm*color10:		COLOR_10
-xterm*color11:		COLOR_11
-xterm*color12:		COLOR_12
-xterm*color13:		COLOR_13
-xterm*color14:		COLOR_14
-xterm*color15:		COLOR_15
+*color0:    COLOR_0
+*color1:    COLOR_1
+*color2:    COLOR_2
+*color3:    COLOR_3
+*color4:    COLOR_4
+*color5:    COLOR_5
+*color6:    COLOR_6
+*color7:    COLOR_7
+*color8:    COLOR_8
+*color9:    COLOR_9
+*color10:   COLOR_10
+*color11:   COLOR_11
+*color12:   COLOR_12
+*color13:   COLOR_13
+*color14:   COLOR_14
+*color15:   COLOR_15
 
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+Xcursor.theme: volantes_light_cursors
+Xcursor.size:  0
+
+XTerm*termName: xterm-color
+XTerm*foreground: BG
+XTerm*background: FG
+XTerm*reverseVideo: off
+XTerm*faceName: DejaVu Sans Mono:size=16:antialias=true !no .tty
+! XTerm*faceName: Noto Sans Mono:size=14:antialias=true !no .tty
+! XTerm*font: *-fixed-*-*-*-18-*
+XTerm*selectToClipboard: true
+
+
+XTerm*color0:    COLOR_0
+XTerm*color1:    COLOR_1
+XTerm*color2:    COLOR_2
+XTerm*color3:    COLOR_3
+XTerm*color4:    COLOR_4
+XTerm*color5:    COLOR_5
+XTerm*color6:    COLOR_6
+XTerm*color7:    COLOR_7
+XTerm*color8:    COLOR_8
+XTerm*color9:    COLOR_9
+XTerm*color10:   COLOR_10
+XTerm*color11:   COLOR_11
+XTerm*color12:   COLOR_12
+XTerm*color13:   COLOR_13
+XTerm*color14:   COLOR_14
+XTerm*color15:   COLOR_15
+
+UXTerm*foreground: FG
+UXTerm*background: BG
+UXTerm*renderFont: true
+! UXTerm*faceName: Noto Sans Mono:size=14:antialias=true !no .tty
+! UXTerm*font: *-fixed-*-*-*-18-*
+
+
+URxvt.font: xft:Terminus:size=14:antialias=true !no .tty
+URxvt.depth: 32
+
+!! BACKGROUND TRANSPARENT
+URxvt.background: [85]BG
+
+URxvt*scrollBar:                      false
+URxvt*mouseWheelScrollPage:           false
+URxvt*cursorBlink:                    true
+URxvt*background:                     BG
+URxvt*foreground:                     FG
+URxvt*saveLines:                      5000
+
+! for 'fake' transparency (without Compton) uncomment the following three lines
+! URxvt*inheritPixmap:                  true
+! URxvt*transparent:                    true
+! URxvt*shading:                        138
